@@ -27,7 +27,6 @@ pet,pet2,pet3.show_tricks()
 
 print(f"Pet's current status:")
 print(f"Name: {pet.name},{ pet2.name}, {pet3.name}")
-# Print the pet's updated status
 print(f"Hunger: {pet.hunger},{ pet2.hunger}, {pet3.hunger}")
 print(f"Energy: {pet.energy},{ pet2.energy}, {pet3.energy}")
 print(f"Happiness: {pet.happiness},{ pet2.happiness}, {pet3.happiness}")

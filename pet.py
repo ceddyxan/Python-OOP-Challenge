@@ -49,7 +49,7 @@ class Pet:
             print(f"{self.name} can do the following tricks: {', '.join(self.tricks)}")
         else:
             print(f"{self.name} hasn't learned any tricks yet.")
-        # TODO
+        
 
     def get_status(self):
         status = {
@@ -66,12 +66,6 @@ class Pet:
         print(f"Tricks: {', '.join(self.tricks) if self.tricks else 'None'}")
         self.eat() 
         self.play()
-        self.sleep() 
-        self.train("Fetch") 
-        # pet.train("Play dead") 
-        # pet.train("Hop and skip") 
-        # pet.train("Roll over") 
+        self.sleep()
         self.show_tricks()
         print(f"Pet's status: Name: {self.name}, Hunger: {self.hunger}, Energy: {self.energy}, Happiness: {self.happiness}")
-                
-        # TODO
